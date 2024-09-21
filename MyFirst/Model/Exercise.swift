@@ -13,7 +13,7 @@ struct Exercise {
     
     enum ExerciseEnum: String{
         case squat = "Squat"
-        case stepUp = "Syep Up"
+        case stepUp = "Step Up"
         case burpee = "Burpee"
         case sunSalute = "Sun Salute"
     }

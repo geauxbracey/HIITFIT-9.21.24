@@ -15,6 +15,7 @@
 		F2058F832C7A395E003ED349 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2058F822C7A395E003ED349 /* ExerciseView.swift */; };
 		F2058F862C7A5F63003ED349 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2058F852C7A5F63003ED349 /* HeaderView.swift */; };
 		F2058F8A2C7A631B003ED349 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2058F892C7A631B003ED349 /* Exercise.swift */; };
+		F2593DDE2C9F4DC000B632F2 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2593DDD2C9F4DC000B632F2 /* SuccessView.swift */; };
 		F2618C322C7B54FA00C95BC8 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2618C312C7B54FA00C95BC8 /* sun-salute.mp4 */; };
 		F2618C342C7B550800C95BC8 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2618C332C7B550800C95BC8 /* step-up.mp4 */; };
 		F2618C362C7B551300C95BC8 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2618C352C7B551300C95BC8 /* squat.mp4 */; };
@@ -24,6 +25,8 @@
 		F2618C3E2C7B636000C95BC8 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2618C3D2C7B636000C95BC8 /* HistoryStore.swift */; };
 		F2618C432C7B64DF00C95BC8 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2618C422C7B64DF00C95BC8 /* HistoryStoreDevData.swift */; };
 		F2618C452C7B78B400C95BC8 /* step-up.png in Resources */ = {isa = PBXBuildFile; fileRef = F2618C442C7B78B400C95BC8 /* step-up.png */; };
+		F2618C472C88C79400C95BC8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2618C462C88C79400C95BC8 /* DateExtension.swift */; };
+		F272844C2C934C00001A6FFB /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F272844B2C934C00001A6FFB /* ImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,7 @@
 		F2058F822C7A395E003ED349 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		F2058F852C7A5F63003ED349 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F2058F892C7A631B003ED349 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		F2593DDD2C9F4DC000B632F2 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		F2618C312C7B54FA00C95BC8 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 		F2618C332C7B550800C95BC8 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
 		F2618C352C7B551300C95BC8 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		F2618C3D2C7B636000C95BC8 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
 		F2618C422C7B64DF00C95BC8 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		F2618C442C7B78B400C95BC8 /* step-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "step-up.png"; sourceTree = "<group>"; };
+		F2618C462C88C79400C95BC8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		F272844B2C934C00001A6FFB /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		F2058F6F2C7A2B4D003ED349 /* MyFirst */ = {
 			isa = PBXGroup;
 			children = (
+				F2618C462C88C79400C95BC8 /* DateExtension.swift */,
+				F272844B2C934C00001A6FFB /* ImageExtension.swift */,
 				F2618C412C7B63BB00C95BC8 /* Model */,
 				F2058F702C7A2B4D003ED349 /* MyFirstApp.swift */,
 				F2058F842C7A39C8003ED349 /* Views */,
@@ -109,6 +117,7 @@
 				F2058F802C7A394D003ED349 /* WelcomeView.swift */,
 				F2618C392C7B58F100C95BC8 /* RatingView.swift */,
 				F2618C3B2C7B5B5000C95BC8 /* HistoryView.swift */,
+				F2593DDD2C9F4DC000B632F2 /* SuccessView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,8 +210,11 @@
 				F2618C3C2C7B5B5000C95BC8 /* HistoryView.swift in Sources */,
 				F2058F732C7A2B4D003ED349 /* ContentView.swift in Sources */,
 				F2058F712C7A2B4D003ED349 /* MyFirstApp.swift in Sources */,
+				F2593DDE2C9F4DC000B632F2 /* SuccessView.swift in Sources */,
 				F2618C432C7B64DF00C95BC8 /* HistoryStoreDevData.swift in Sources */,
 				F2058F812C7A394D003ED349 /* WelcomeView.swift in Sources */,
+				F2618C472C88C79400C95BC8 /* DateExtension.swift in Sources */,
+				F272844C2C934C00001A6FFB /* ImageExtension.swift in Sources */,
 				F2058F832C7A395E003ED349 /* ExerciseView.swift in Sources */,
 				F2058F8A2C7A631B003ED349 /* Exercise.swift in Sources */,
 				F2618C3E2C7B636000C95BC8 /* HistoryStore.swift in Sources */,

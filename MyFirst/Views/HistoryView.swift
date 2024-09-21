@@ -13,12 +13,17 @@ struct HistoryView: View {
     let history = HistoryStore()
    // let exercises1 = ["Squat", "Step Up", "Burpee", "Sun Salute"]
    // let exercises2 = ["Squat", "Step Up", "Burpee"];
+   
+    @Binding var showHistory: Bool
+    
     var body: some View {
         ZStack(alignment: .topTrailing) {
-            Button(action: {}) {
-             Image(systemName: "xmark.circle")
+            Button(action: { showHistory.toggle() }) {
+                Image(systemName: "xmark.circle")
                     .font(.title)
-                    .padding(.trailing)            }
+                    .padding()
+                //deleted a .trailing modifier on padding that pushed x button too close to top of modal
+            }
             VStack {
                 Text("History")
                     .font(.title)
@@ -29,17 +34,18 @@ struct HistoryView: View {
                             header:
                                 Text(day.date.formatted(as: "MMM d"))
                                 .font(.headline)) {
-                                    ForEach(day.exercises, id: \.self) { exercise in
-                                        Text(exercise)
-                                    }
+                            ForEach(day.exercises, id: \.self) { exercise in
+                                Text(exercise)
                                 }
-                    }
+                            }
+                        }
+                     } 
                 }
             }
         }  
     }
-}
+
 
 #Preview {
-    HistoryView()
+    HistoryView(showHistory: .constant(true))
 }
